@@ -12,6 +12,7 @@ html, body {
     text-align: center;
     background: linear-gradient(45deg, green, white, green);
     padding: 10px;
+    padding-bottom: 80px;
 
 }
 
