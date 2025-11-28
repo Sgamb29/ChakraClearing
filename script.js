@@ -7,7 +7,7 @@ const chakras = [
 ];
 
 const extraSession = [
-    "Focus on Your Feet", "Focus on Your Knees", "Focus on Your Buttocks", "Focus on Your Spine",
+    "Focus on Your Feet", "Focus on Your Knees", "Focus on Your Seat", "Focus on Your Spine",
     "Focus on Your Shoulders", "Focus on Your Elbows", "Focus on Your Wrists", "Focus on Your Fingertips and Hands",
     "Focus on The Back of Your Neck", "Focus on The Top of Your Head", "Become Aware of Your Aura",
 ];
@@ -51,6 +51,7 @@ function startChakraClearing() {
         clearInterval(changeId);
         timerId = 0;
         changeId = 0;
+        chakraIndex = 0;
         output.innerText = "Great Job For The Session!";
         timerOutput.innerText = "";
         document.getElementById("startBtn").innerText = "Start Chakra Clearing";

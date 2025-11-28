@@ -10,27 +10,40 @@ html, body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: linear-gradient(45deg, green, white, green);
+    background: linear-gradient(90deg, gray, lightgray,gray);
     padding: 10px;
     padding-bottom: 80px;
+    text-shadow: 1px 1px 1px lightgray;
 
+}
+
+h1 {
+    text-shadow: 5px 5px 4px white;
 }
 
 ul {
     text-align: left;
 }
 
+p {
+    font-size: large;
+}
+
+footer {
+    font-size: large;
+}
+
 button {
     font-size: larger;
     margin: 10px;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20%;
     background-color: white;
 }
 
 #colorIndicator {
-    border: 1px solid black;
-    border-radius: 25%;
+    border: 2px solid black;
+    border-radius: 20%;
     padding: 20px;
 }
